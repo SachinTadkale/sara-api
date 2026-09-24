@@ -8,6 +8,7 @@ app.add_middleware(
     allow_origins = [
         "http://localhost:4200",
         "http://localhost:4300",
+        "https://sara-ui-black.vercel.app",
     ],
     allow_credentials = True,
     allow_methods = ["*"],
