@@ -14,10 +14,11 @@ TOOLS = [
                 "properties": {
                     "query": {
                         "type": "string",
-                        "description": "The search query."
+                        "description": "The exact search query string to look up."
                     }
                 },
-                "required": ["query"]
+                "required": ["query"],
+                "additionalProperties": False
             },
         }
     },

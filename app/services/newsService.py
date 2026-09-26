@@ -18,7 +18,7 @@ def get_hacker_news():
 
     JSON Structure:
     {{
-        "summary": "Good Morning, Sachin. Today's discussions are dominated by [Summarize 2-3 main trends in 1 short, simple sentence].",
+        "summary": "Today's discussions are dominated by [Summarize 2-3 main trends in 1 short, simple sentence].",
         "news": [
             {{
                 "title": "[Simple rewritten title without hard words]",
